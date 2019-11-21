@@ -14,6 +14,12 @@
 		5553192A238704EB00A8F3B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55531929238704EB00A8F3B5 /* Assets.xcassets */; };
 		5553192D238704EB00A8F3B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5553192C238704EB00A8F3B5 /* Preview Assets.xcassets */; };
 		55531930238704EB00A8F3B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5553192E238704EB00A8F3B5 /* LaunchScreen.storyboard */; };
+		5553193A2387074800A8F3B5 /* LoversData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555319392387074800A8F3B5 /* LoversData.swift */; };
+		5553193E2387087900A8F3B5 /* LoverList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5553193D2387087900A8F3B5 /* LoverList.swift */; };
+		55531940238708A800A8F3B5 /* Lover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5553193F238708A800A8F3B5 /* Lover.swift */; };
+		55531942238709B600A8F3B5 /* LoverRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55531941238709B600A8F3B5 /* LoverRow.swift */; };
+		5553194423870A4D00A8F3B5 /* LoverEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5553194323870A4D00A8F3B5 /* LoverEditor.swift */; };
+		5553194A238734B100A8F3B5 /* muscle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55531949238734B100A8F3B5 /* muscle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		5553192C238704EB00A8F3B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5553192F238704EB00A8F3B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55531931238704EB00A8F3B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		555319392387074800A8F3B5 /* LoversData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoversData.swift; sourceTree = "<group>"; };
+		5553193D2387087900A8F3B5 /* LoverList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoverList.swift; sourceTree = "<group>"; };
+		5553193F238708A800A8F3B5 /* Lover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lover.swift; sourceTree = "<group>"; };
+		55531941238709B600A8F3B5 /* LoverRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoverRow.swift; sourceTree = "<group>"; };
+		5553194323870A4D00A8F3B5 /* LoverEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoverEditor.swift; sourceTree = "<group>"; };
+		55531949238734B100A8F3B5 /* muscle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = muscle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +72,13 @@
 			children = (
 				55531920238704EA00A8F3B5 /* AppDelegate.swift */,
 				55531922238704EA00A8F3B5 /* SceneDelegate.swift */,
+				5553193F238708A800A8F3B5 /* Lover.swift */,
+				555319392387074800A8F3B5 /* LoversData.swift */,
+				5553194323870A4D00A8F3B5 /* LoverEditor.swift */,
+				55531941238709B600A8F3B5 /* LoverRow.swift */,
+				5553193D2387087900A8F3B5 /* LoverList.swift */,
 				55531927238704EA00A8F3B5 /* ContentView.swift */,
+				55531949238734B100A8F3B5 /* muscle.swift */,
 				55531929238704EB00A8F3B5 /* Assets.xcassets */,
 				5553192E238704EB00A8F3B5 /* LaunchScreen.storyboard */,
 				55531931238704EB00A8F3B5 /* Info.plist */,
@@ -149,9 +167,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5553193E2387087900A8F3B5 /* LoverList.swift in Sources */,
+				55531942238709B600A8F3B5 /* LoverRow.swift in Sources */,
 				55531921238704EA00A8F3B5 /* AppDelegate.swift in Sources */,
+				55531940238708A800A8F3B5 /* Lover.swift in Sources */,
+				5553194A238734B100A8F3B5 /* muscle.swift in Sources */,
 				55531926238704EA00A8F3B5 /* p1122.xcdatamodeld in Sources */,
+				5553194423870A4D00A8F3B5 /* LoverEditor.swift in Sources */,
 				55531928238704EA00A8F3B5 /* ContentView.swift in Sources */,
+				5553193A2387074800A8F3B5 /* LoversData.swift in Sources */,
 				55531923238704EA00A8F3B5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
